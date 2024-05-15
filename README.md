@@ -5,13 +5,13 @@
 
 ## Description
 
-This project is a Landing Page using modern web development technologies. Its key features include adaptability, flexible grid and semantic markup.
+This project is a Landing Page using modern web development technologies. Its key features include adaptability, flexible grid, and semantic markup.
 
 ## Technologies Used
 
 - **HTML**
 - **BEM**
-- **SCSS** (mixins variables)
+- **SCSS** (mixins, variables)
 - **Grid and Flexbox**.
 
 ## Features
@@ -19,7 +19,7 @@ This project is a Landing Page using modern web development technologies. Its ke
 - Adaptive and Responsive Design
 - Semantic Markup
 - Mobile-First Approach
-- Adaptive grid.
+- Adaptive grid
 - Hidden Navigation Menu
 - Contact Form
 - Smooth Scrolling between Sections
