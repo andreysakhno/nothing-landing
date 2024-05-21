@@ -34,4 +34,6 @@
       pointer-events: all;
     }
   }
+
+  @include custom-scrollbar;
 }

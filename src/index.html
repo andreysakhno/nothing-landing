@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
@@ -258,7 +258,12 @@
                 <h3 class="category__title">Accessories</h3>
               </article>
 
-              <button class="categories__button button">View all</button>
+              <button
+                onclick="javascript:alert('Feature under development');"
+                class="categories__button button"
+              >
+                View all
+              </button>
             </div>
           </div>
         </section>
@@ -307,6 +312,7 @@
                     type="text"
                     name="form[name]"
                     placeholder="Name"
+                    required
                   />
 
                   <input
@@ -314,12 +320,14 @@
                     type="email"
                     name="form[email]"
                     placeholder="Email"
+                    required
                   />
 
                   <textarea
                     class="form__element form__element--textarea"
                     name="form[message]"
                     placeholder="Message"
+                    required
                   ></textarea>
                 </div>
 

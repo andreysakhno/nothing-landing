@@ -19,7 +19,10 @@
     line-height: 140%;
 
     &--textarea {
-      resize: vertical;
+      resize: none;
+      height: 148px;
+
+      @include custom-scrollbar;
     }
 
     &::placeholder {
